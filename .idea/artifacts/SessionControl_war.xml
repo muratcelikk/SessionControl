@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SessionControl:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SessionControl</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pro-1.0.0-BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SessionControl:war exploded" />
+    </root>
+  </artifact>
+</component>
